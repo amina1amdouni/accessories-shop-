@@ -1,0 +1,67 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e3e1e1;
+}
+
+.App {
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffcccb;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  cursor: pointer;
+  color: #0f0101;
+  font-size: 18px;
+  position: relative;
+}
+
+.nav-item:hover {
+  color: #e7836f;
+}
+
+.nav-indicator {
+  position: absolute;
+  height: 4px;
+  background-color: #e44d26;
+  bottom: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.App-content {
+  padding: 20px;
+}
+
+/* Add specific styles for each component as needed */
+
+.Home {
+  font-size: 24px;
+  color: #333;
+}
+
+.AboutUs {
+  font-size: 24px;  
+  color: #333;
+}
+
+.AllAccessories {
+  font-size: 24px;
+  color: #333;
+}
+
+.AddAccessories {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Add more styles based on your specific components */
